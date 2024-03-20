@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local('Poppins'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfedw.ttf) format('truetype');
+    }
+
+}
+
+body {
+    @apply bg-gray-50 text-zinc-800
+}
+
+a {
+    @apply flex items-center   hover:bg-gray-100/50 font-light
+}
+
+input {
+    @apply bg-white border-b border-gray-400 rounded-md px-2 py-2 dark:border-zinc-700 dark:bg-zinc-600 dark:text-gray-50;
+}
+
+h1 {
+    @apply font-extrabold text-3xl mb-2
+}
+h2 {
+    @apply font-bold text-xl mb-2
+}
+
+h3 {
+    @apply font-bold text-lg mb-2
+}
+
+p {
+    @apply font-light text-sm
+}
+time {
+    @apply mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500
+}
+li {
+    @apply dark:bg-zinc-800
+}
+tr {
+    @apply hover:dark:bg-gradient-to-r dark:from-zinc-900 hover:dark:text-custom-teal-light hover:bg-gradient-to-r from-teal-400 hover:text-gray-800
+}
+
+/*td {*/
+/*    @apply px-6 py-4 font-medium text*/
+/*}*/
+
+/* {*/
+/*    @apply rounded w-full bg-custom-blue dark:bg-gray-700 text-lg text-left rtl:text-right text-gray-800 dark:text-gray-50*/
+/*}*/
+/*button {*/
+/*    @apply text-lg mb-4 dark:text-gray-800  lg:dark:text-gray-50 bg-gray-100 dark:bg-zinc-400 hover:bg-zinc-400 lg:hover:bg-transparent lg:bg-transparent lg:p-0 px-4 py-2  rounded*/
+/*}*/
+

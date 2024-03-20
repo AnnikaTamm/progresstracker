@@ -1,0 +1,40 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "name": "itinerary",
+            "points": 300,
+            "created": "09.2023"
+        },
+        {
+            "id": 2,
+            "name": "art-decoder",
+            "points": 300,
+            "created": "10.2023"
+        },
+        {
+            "id": 3,
+            "name": "art-interface",
+            "points": 300,
+            "created": "11.2023"
+        },
+        {
+            "id": 4,
+            "name": "cars",
+            "points": 800,
+            "created": "12.2023"
+        },
+        {
+            "id": 5,
+            "name": "stations",
+            "points": 1300,
+            "created": "01.2024"
+        },
+        {
+            "id": 6,
+            "name": "literary-lions",
+            "points": 1300,
+            "created": "02.2024"
+        }
+    ]
+}
