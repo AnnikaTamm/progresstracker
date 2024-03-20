@@ -1,6 +1,4 @@
 <script>
-    import { Timeline, TimelineItem, Activity, ActivityItem, Group, GroupItem } from 'flowbite-svelte';
-    import { CalendarWeekSolid } from 'flowbite-svelte-icons';
     import MenuBar from "../../components/layout/+MenuBar.svelte";
     import ProgressBar from "../../components/ui/+ProgressBar.svelte";
 </script>
