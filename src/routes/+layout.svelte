@@ -13,7 +13,7 @@
 		</div>
 		<div class="flex flex-col ">
 
-			<main class="h-full">
+			<main class="h-full  overflow-hidden">
 				<div class="relative z-10 top-0 bg-white dark:bg-zinc-900 py-2 dark:border-b dark:border-zinc-700 lg:hidden shadow">
 					<Header/>
 				</div>

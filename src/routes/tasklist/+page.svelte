@@ -4,16 +4,16 @@ import MenuBar from "../../components/layout/+MenuBar.svelte";
 </script>
 
 
-<div class="relative lg:m-8 m-4">
+<div class="relative ">
 
         <MenuBar/>
         <ProgressBar/>
 
 
 
-    <div class="grid grid-cols-6 gap-4 lg:mx-16 lg:mt-4 p-4">
-        <div class="col-span-2">
-            <h3 class="my-4">Task list</h3>
+    <div class="grid grid-cols-6 gap-4 m-4 lg:mx-16 lg:mt-4 ">
+        <div class="col-span-6">
+            <h3 class="my-4 text-2xl ">Golang module tasks</h3>
         </div>
 
 
@@ -62,7 +62,7 @@ import MenuBar from "../../components/layout/+MenuBar.svelte";
                  </div>
         </div>
 
-        <div class="col-span-6 p-4 dark:bg-custom-blue text-teal-800 dark:text-teal-900 border-b border-gray-200 dark:border-transparent rounded flex flex-row justify-between items-center shadow-md">
+        <div class="col-span-6 p-4 bg-custom-blue/50 dark:bg-custom-blue text-teal-800 dark:text-teal-900 border-b border-gray-200 dark:border-transparent rounded flex flex-row justify-between items-center shadow-md">
 
              <div class="flex flex-col">
                  <div class="flex flex-row space-x-4">
@@ -92,7 +92,7 @@ import MenuBar from "../../components/layout/+MenuBar.svelte";
                      </div>
                      <div class="flex flex-col">
                          <p class="font-bold">stations-pathfinder</p>
-                         <p class="italic text-gray-800">mandatory</p>
+                         <p class="italic text-gray-400">mandatory</p>
                      </div>
                  </div>
                  <div class="">
@@ -111,7 +111,7 @@ import MenuBar from "../../components/layout/+MenuBar.svelte";
                  </div>
                  <div class="flex flex-col">
                      <p class="font-bold">literary-lions-forum</p>
-                     <p class="italic text-gray-800">mandatory</p>
+                     <p class="italic text-gray-400">mandatory</p>
                  </div>
              </div>
              <div class="">

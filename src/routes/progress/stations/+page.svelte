@@ -3,7 +3,7 @@
     import ProgressBar from "../../../components/ui/+ProgressBar.svelte";
 </script>
 
-<div class="relative lg:m-8 m-4">
+<div class="relative">
     <div class="">
         <MenuBar/>
         <ProgressBar/>
